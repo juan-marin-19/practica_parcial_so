@@ -122,7 +122,7 @@ class MLQScheduler:
 
     # Genera el archivo de salida con los resultados del planificador
     def write_output(self, filename):
-        # Ordena los procesos por su etiqueta (A, B, C, ...)
+        # Ordena los procesos por su etiqueta 
         self.finished_processes.sort(key=lambda x: x.label)
 
         with open(filename, 'w') as f:
