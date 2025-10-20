@@ -153,6 +153,4 @@ scheduler.schedule()
 scheduler.write_output(script_dir / 'mlq019_output.txt')
 
 
-#nota, el orden de los procesos se mantiene pues aunque halla arrival time, o burst time iguales para 
-#distintos procesos , se ordeno de manera secuencial y los procesos ya tienen un orden en su id,
-# ese orden es el determinante dado tales casos.
+
